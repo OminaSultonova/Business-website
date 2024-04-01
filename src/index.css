@@ -1,0 +1,297 @@
+:root {
+    --primary-color: #ffffff; 
+    --secondary-color: #072c63; 
+  }
+
+  * {
+    margin-right: 0;
+  }
+  
+  h4, h5, h6 {
+    color: #8f8f8f;
+    text-align: center;
+  }
+  .sticky-top {
+    position: sticky;
+    top: 0;
+    z-index: 1000; 
+  }
+  .row {
+    --bs-gutter-x: 0;
+  }
+  .hero-bg {
+    background-image: url('./assets/images/hero-banner.png');
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    margin-top: 0;
+  }
+  
+  .hero-content {
+    margin-left: 6%;
+  }
+  
+  .hero-title {
+    font-size: 60px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-text {
+    margin-bottom: 40px;
+    font-size: 20px;
+  }
+  
+  .hero-title, .hero-text {
+    color: var(--primary-color);
+  }
+
+  /* Solutions Part */
+
+  .sub-title {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+  }
+  .cloud {
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  .card-box {
+    margin-bottom: 100px;
+    margin-right: 10px;
+  }
+ 
+  .map-box {
+    margin-bottom: 150px;
+  }
+  .features-box {
+    margin-bottom: 150px;
+  }
+  .icons {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 30px;
+  }
+  
+ 
+  .testimonial-card {
+    border: 1px solid #ccc; 
+    padding: 20px;
+    max-width: 900px; 
+  }
+  .testimonial-card h6 {
+    text-align: left;
+  }
+
+  .testimonial-box {
+    margin-bottom: 150px;
+  }
+  .cta-banner {
+    width: 100%;
+    height: 400px;
+    color: #576780;
+  }
+  .banner {
+    background-color: #d7eaff; 
+    color: #282828; 
+    height: 300px; 
+  }
+  
+  .banner-content {
+    padding-top: 60px;
+    padding-left: 80px;
+
+  }
+  .footer {
+    background-color: #1a1a2e; 
+    color: #ffffff; 
+    padding: 50px 0; 
+  }
+  
+  .footer h1,
+  .footer p {
+    color: #ffffff; 
+  }
+  .footer h5 {
+    color: gray;
+    margin-bottom: 20px;
+  }
+  
+  .footer box-icon {
+    fill: #0283fc; 
+    margin-right: 20px;
+  }
+  
+  .copyright {
+    font-size: 13px;
+    margin-top: 80px;
+    text-align: center; 
+ }
+
+ .countdown {
+  background-color: #1a1a2e; 
+  color: #ffffff; 
+  padding: 20px;
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+}
+
+.countdown h3 {
+  margin-right: 10px;
+}
+
+.countdown div {
+  display: flex; 
+}
+
+.countdown div h3 {
+  margin-right: 5px; 
+}
+.discount-title {
+  margin-right: 30px;
+}
+
+.cookies-popup {
+  position: fixed;
+  display: none;
+  bottom: 20px;
+  right: 20px;
+  background-color: #f8f9fa;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 400px;
+  width: 90%;
+  text-align: center;
+}
+
+.cookies-popup.show {
+  display: block; /* Show the popup when the 'show' class is present */
+}
+
+.cookies-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.cookies-content button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cookies-content button:hover {
+  background-color: #0056b3;
+}
+
+.close-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: transparent;
+  border: none;
+  color: #6c757d;
+  font-size: 24px;
+  cursor: pointer;
+}
+ /* Services Page */
+ .header-services {
+  background-image: url('../src/assets/images/services-banner.png');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+}
+
+.header-content {
+  text-align: center;
+  color: white;
+}
+
+.header-title {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.accordion .item {
+ 
+  border: 1px solid rgb(211, 211, 211);
+  border-radius: 5px;
+  padding: 1.5rem 1rem;
+  margin-bottom: 10px;
+}
+.accordion .item .accordion-header button {
+  background-color: transparent;
+  box-shadow: none;
+  font-size: 1rem;
+  letter-spacing: .125rem;
+  line-height: 1.375rem;
+  color:#007bff;
+  font-weight: 700;
+  vertical-align: middle;
+  position: relative;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+.accordion .item .accordion-header button::after {
+  transition: all .6s ease;
+}
+.accordion .item .accordion-collapse {
+  transition: all .4s ease;
+}
+
+
+/* About page */
+.header-about {
+  background-image: url('../src/assets/images/about-banner.png');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0; 
+}
+.about-image {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  border-radius: 8px; 
+}
+.about-title {
+  font-weight: bold;
+  margin-bottom: 5%;
+}
+
+
+  @keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  
+
+  /* Responsive styles for smaller devices */
+  @media (max-width: 950px) {
+    .hero-content {
+      margin-left: 40px; /* Adjust margin-left for medium-sized devices */
+    }
+  
+    .hero-title {
+      font-size: 50px; /* Adjust font size for medium-sized devices */
+      margin-top: 100px; /* Adjust margin top for medium-sized devices */
+      margin-bottom: 15px; /* Adjust margin bottom for medium-sized devices */
+    }
+  
+    .hero-text {
+      margin-bottom: 20px; /* Adjust margin bottom for medium-sized devices */
+    }
+  }
+  
